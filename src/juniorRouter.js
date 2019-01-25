@@ -5,6 +5,11 @@ import App from '@/components/App'
 import Welcome from '@/components/Welcome'
 import FurtherInstructions from '@/components/FurtherInstructions'
 
+/**
+ * A rubbish comment that should be removed. It serves no purpose.
+ * Remove me
+ */
+
 const appRoutes = [
     {
         path: 'welcome',
