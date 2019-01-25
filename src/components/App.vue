@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
-    <div>
-      <img src="@/assets/logo.png">
+    <div style="width:100%; text-align:center">
+      <img style="margin:auto auto" src="@/assets/logo.png">
     </div>
     <div>
       <router-view></router-view>
@@ -22,6 +22,6 @@ export default {
 <style>
 .main-container{
   max-width: 600px;
-  margin: auto auto
+  margin: auto auto;
 }
 </style>

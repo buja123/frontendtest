@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1 style="text-align:center">{{todaysDate}}</h1>
     <h3>We have decided that we are in need for a live weather webapp</h3>
     <br>
     <p>We want to be able to see <b>Cape Town</b>, <b>Johannesburg</b> and <b>Durban</b> in a list and be able to click through to them and view a 7 day forecast</p>
@@ -8,12 +9,16 @@
     <p>We had a developers spec meeting and these are the mockups that we want you to implement:</p>
     <ul>
       <li>
-        Location list:
-
+        <p>Location list:</p>
+        <div>
+          <img src="@/assets/location-list.jpeg" class="spec-pic"/>
+        </div>
       </li>
       <li>
-        Location Forecast: 
-
+        <p>Location Forecast:</p>
+        <div>
+          <img src="@/assets/location-detail.jpeg" class="spec-pic"/>
+        </div>
       </li>
     </ul>
     <p>
@@ -24,9 +29,34 @@
 </template>
 
 <script>
+
+import dayjs from 'dayjs';
+
 export default {
+  data(){
+    return {
+      todaysDate: null
+    }
+  },
+  mounted(){
+    const now = new Date();
+    this.todaysDate = dayjs(now).format('YYYY-MM-DD hh:mm:ss');
+  }
 }
 </script>
 
 <style scoped>
+.spec-pic{
+  position: relative;
+  width: 350px;
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+ul {
+    list-style: outside disc;
+    margin-left: 1em;
+}
 </style>
