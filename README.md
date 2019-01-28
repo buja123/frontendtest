@@ -1,26 +1,5 @@
-# frontendjnr
+Fork this
 
-## Project setup
-```
-npm install
-```
+Follow instructions
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+Push the result and then notify us
