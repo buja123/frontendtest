@@ -1,8 +1,9 @@
 ## Welcome to the Adept Junior Frontend Test
 
 ### Prerequisites
-* **Git** installed
-* **nodejs** and **npm** installed
+* **Git**
+* **nodejs**
+* **npm**
 
 ### Getting Started
 * Clone this repo
