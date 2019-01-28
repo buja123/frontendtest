@@ -3,9 +3,8 @@
     <h1 style="text-align:center">{{todaysDate}}</h1>
     <h3>We have decided that we are in need for a live weather webapp</h3>
     <br>
-    <p>We want to be able to see <b>Cape Town</b>, <b>Johannesburg</b> and <b>Durban</b> in a list and be able to click through to them and view a 7 day forecast</p>
+    <p>We want to be able to see <b>Cape Town</b>, <b>Johannesburg</b> and <b>Durban</b> in a list and be able to click through to them and view a <b>5 day forecast</b></p>
     <br>
-
     <p>We had a developers spec meeting and these are the mockups that we want you to implement:</p>
     <ul>
       <li>
@@ -22,7 +21,7 @@
       </li>
     </ul>
     <p>
-      We want you to consume the <a href="https://openweathermap.org/api">Openweathermap API</a> to retrieve the live data using the following API key:<strong> c60affe7bd71ca5cf3853f5a6fba4dbb</strong>
+      We want you to consume the JSON data provided by the <a href="https://openweathermap.org/api">Openweathermap API</a> using the following API key:<strong> c60affe7bd71ca5cf3853f5a6fba4dbb</strong>
     </p>
     <p><strong>Look through the documentation to find the calls you need</strong></p>
   </div>
@@ -49,11 +48,6 @@ export default {
 .spec-pic{
   position: relative;
   width: 350px;
-  -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
 }
 ul {
     list-style: outside disc;
